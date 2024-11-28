@@ -1,0 +1,12 @@
+Spring , Vuejs tailwind css 연동
+
+Spring 프로젝트 생성
+1. https://start.spring.io/(Spring initializr)들어가서 Spring 프로젝트 파일 만들어주기
+1-1 Spring dependency 추가
+(lombok, Spring dev tools, Spring Web, mybatis 등등)
+Generate 눌러서 파일 만들어주고 압축풀기
+
+Vue 프로젝트 생성(미리 nodejs 깔아두자)
+1.터미널 가서 Vue create 파일명
+2. Vue3 선택 + 깔리면 code . 쳐서 vscode로 연동 vscode열어서 폴더 옮기기 선택
+3. npm run serve 프로젝트 실행
