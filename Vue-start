@@ -1,12 +1,22 @@
-Spring , Vuejs tailwind css 연동
+Spring , Vuejs tailwind css 연동(Vscode)
 
 Spring 프로젝트 생성
 1. https://start.spring.io/(Spring initializr)들어가서 Spring 프로젝트 파일 만들어주기
 1-1 Spring dependency 추가
 (lombok, Spring dev tools, Spring Web, mybatis 등등)
-Generate 눌러서 파일 만들어주고 압축풀기
+Generate 눌러서 파일 만들어주고 압축풀기 + 푼 파일 vscode에서 실행
+
+2.resource의 application.properties 파일에 정의할것
+server.port=8084 ( 포트번호 설정)
+(DB 연결)
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/mask
+spring.datasource.username=**** 
+spring.datasource.password=**** 
 
 Vue 프로젝트 생성(미리 nodejs 깔아두자)
 1.터미널 가서 Vue create 파일명
 2. Vue3 선택 + 깔리면 code . 쳐서 vscode로 연동 vscode열어서 폴더 옮기기 선택
 3. npm run serve 프로젝트 실행
+
+
